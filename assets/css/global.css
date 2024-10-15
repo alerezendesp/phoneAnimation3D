@@ -1,0 +1,96 @@
+/* Reset */
+
+* html .hljs- {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    /* box-shadow: none; */
+}
+
+:root {
+    /*! -Default- */
+    --animation: none
+    --transition: none
+    --background-color: #f5f5f5;
+    --text-color: #333;
+    --animation-duration: 0s;
+    --animation-timing-function: ease;
+    --animation-delay: 0s;
+    --animation-iteration-count: infinite;
+    --animation-direction: normal;
+    --animation-fill-mode: forwards;
+    --animation-play-state: running;
+    --box-shadow: none;
+    --border-radius: 0;
+    --border: none;
+    --box-sizing: border-box;
+    --border-color: transparent;
+    --border-style: solid;
+    --border-width: 0;
+    --border-image: none;
+    --box-decoration-break: normal;
+    --display: block;
+    --float: none;
+    --position: static;
+    --overflow: visible;
+    --clear: none;
+    --cursor: auto;
+    --list-style-type: disc;
+    --list-style-position: outside;
+    --list-style-image: none;
+    --margin: 0;
+    --padding: 0;
+    --text-align: left;
+    --vertical-align: baseline;
+    --white-space: normal;
+    --min-width: 0;
+    --max-width: 100%;
+    --min-height: 0;
+    --max-height: 100%;
+    --width: auto;
+    --height: auto;
+    --resize: none;
+    --overflow-x: visible;
+    --overflow-y: visible;
+    --overflow-wrap: normal;
+    --overflow-clip-box: content-box;
+    --will-change: auto;
+    --clip: auto;
+    --transform: none;
+    --transform-origin: 0 0;
+    --transform-style: flat;
+    --transition-property: none;
+    --transition-timing-function: ease;
+    --transition-duration: 0s;
+    --transition-delay: 0s;
+    --will-change: auto;
+    -o-animation: alternate !important;
+    -moz-animation: alternate !important;
+    -webkit-animation: alternate !important;
+}
+
+a {
+    /* color: #337ab7; */
+    text-decoration: none;
+}
+
+a:hover {
+    box-decoration-break: unset;
+    /* color: #23527c; */
+}
+
+/** -ForMoreSourceVars */
+h1, h2, h3, h4, h5, h6 {
+    /* color: #333; */
+    margin: 0;
+    font-weight: 500;
+}
+
+body {
+    /* background-color: #f5f5f5; */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+/** ------------------------------------------------------------------------ */
